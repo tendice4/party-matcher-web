@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Mock() {
   return (
     <div className="base">
       <div className="menu">
