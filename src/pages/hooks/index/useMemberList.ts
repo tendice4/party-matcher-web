@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction, useState } from "react";
 import MemberListItem from "../../../def/types/member/MemberListItem";
 import generateUnique from "../../../utils/generateUnique";
 
-export const useMemberList = () => {
+const useMemberList = () => {
   const [memberList, setMemberList]: [
     MemberListItem[],
     Dispatch<SetStateAction<MemberListItem[]>>
@@ -27,3 +27,5 @@ export const useMemberList = () => {
   };
   return { memberList, addMember, deleteMember, renameMember };
 };
+
+export default useMemberList;

@@ -7,7 +7,7 @@ import Card from "../elements/cards/Card";
 import NeumorphHeading from "../elements/headings/NeumorphHeading";
 import Text from "../elements/texts/Text";
 import styles from "../styles/Entrance.module.scss";
-import { useMemberList } from "./hooks/index/useMemberList";
+import useMemberList from "./hooks/index/useMemberList";
 
 const Entrance: React.FC<{}> = () => {
   const router = useRouter();
