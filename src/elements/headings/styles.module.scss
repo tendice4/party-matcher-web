@@ -1,3 +1,9 @@
 .Heading {
   color: hsl(260, 100%, 20%);
 }
+
+.Neumorph {
+  composes: Heading;
+  text-shadow: 0.1rem 0.1rem 0.1rem hsl(0, 0, 80),
+    -0.1rem -0.1rem 0.1rem hsl(0, 0, 100);
+}

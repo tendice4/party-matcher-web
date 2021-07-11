@@ -1,0 +1,14 @@
+.MemberHash {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+  background: linear-gradient(45deg, hsl(260, 100%, 50%), hsl(260, 100%, 70%));
+  font-size: 1rem;
+}
