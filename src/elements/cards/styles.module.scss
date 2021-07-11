@@ -3,4 +3,8 @@
   box-shadow: 10px 10px 10px hsl(0, 0, 85), -10px -10px 10px hsl(0, 0, 95);
   border-radius: 0.5rem;
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
