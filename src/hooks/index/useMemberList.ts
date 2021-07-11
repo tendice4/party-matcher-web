@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useState } from "react";
-import MemberListItem from "../../../def/types/member/MemberListItem";
-import generateUnique from "../../../utils/generateUnique";
+import MemberListItem from "../../def/types/member/MemberListItem";
+import generateUnique from "../../utils/generateUnique";
 
 const useMemberList = () => {
   const [memberList, setMemberList]: [
